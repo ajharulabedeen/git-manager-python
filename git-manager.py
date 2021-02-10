@@ -10,7 +10,7 @@ def addCommit(command):
     for counter in range(len(split)):
         if counter > 1:
             message += split[counter] + " ";
-    listCommit.append(commit(commandCounter, '"' + message + '"'))
+    listCommit.append(commit(commandCounter, message))
     print("commit success");
 
 
@@ -22,6 +22,19 @@ def executeCommnad(command):
     elif command == "git show all commit":
         for obj in listCommit:
             print(obj.id, obj.message, sep=' ')
+    elif command.startswith("git delete"):
+        print()
+        split = command.split();
+        deleteID = split[2];
+        print('deleteID:' + deleteID)
+        d1 = {};
+        for obj in listCommit:
+            print(obj.id)
+            if obj.id == deleteID:
+                print(obj)
+                listCommit.remove(obj);
+                d1 = obj;
+        # listCommit.remove(d1);
     else:
         print("unknown command");
     return
