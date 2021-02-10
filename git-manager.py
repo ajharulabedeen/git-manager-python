@@ -13,6 +13,14 @@ def addCommit(command):
     listCommit.append(commit(commandCounter, message))
     print("commit success");
 
+def deleteCommit(command):
+    split = command.split();
+    deleteID = split[2];
+    for obj in listCommit:
+        if obj.id == int(deleteID):
+            listCommit.remove(obj);
+    print("delete success")
+
 
 def executeCommnad(command):
     if command == "git init":
@@ -23,22 +31,10 @@ def executeCommnad(command):
         for obj in listCommit:
             print(obj.id, obj.message, sep=' ')
     elif command.startswith("git delete"):
-        print()
-        split = command.split();
-        deleteID = split[2];
-        print('deleteID:' + deleteID)
-        d1 = {};
-        for obj in listCommit:
-            print(obj.id)
-            if obj.id == deleteID:
-                print(obj)
-                listCommit.remove(obj);
-                d1 = obj;
-        # listCommit.remove(d1);
+        deleteCommit(command)
     else:
         print("unknown command");
     return
-
 
 listCommit = [];
 commandCounter = 0;
