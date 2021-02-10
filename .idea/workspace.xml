@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc97b5e2-1536-4854-b3a1-4b9293ff318d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/git-manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/git-manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,14 +15,24 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/git_manager_python$git_manager.coverage" NAME="git-manager Coverage Results" MODIFIED="1612928868838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/git_manager_python$listTest.coverage" NAME="listTest Coverage Results" MODIFIED="1612929486383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="git-manager.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="git-manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/git-manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/listTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -42,6 +53,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/git-manager.py" />
+        <option value="$PROJECT_DIR$/listTest.py" />
       </list>
     </option>
   </component>
@@ -54,8 +66,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="978" />
     <option name="height" value="1048" />
@@ -75,11 +87,6 @@
             <path>
               <item name="git-manager-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-manager-python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-manager-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-manager-python" type="462c0819:PsiDirectoryNode" />
-              <item name="git-manager.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -106,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.listTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -145,6 +152,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="listTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git-manager-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -167,8 +193,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Python.git-manager" />
+      <item itemvalue="Python.listTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.listTest" />
         <item itemvalue="Python.git-manager" />
       </list>
     </recent_temporary>
@@ -183,15 +214,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612927223308</updated>
-      <workItem from="1612927227112" duration="1815000" />
+      <workItem from="1612927227112" duration="2263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1815000" />
+    <option name="totallyTimeSpent" value="2263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="-7" width="782" height="838" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -211,10 +242,10 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3940678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30932203" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32909605" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24792244" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12013423" />
       <window_info anchor="right" id="ReST Console" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Theme Preview" />
@@ -282,8 +313,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/git-manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="238">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
