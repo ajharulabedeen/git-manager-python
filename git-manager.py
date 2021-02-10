@@ -10,7 +10,7 @@ def addCommit(command):
     for counter in range(len(split)):
         if counter > 1:
             message += split[counter] + " ";
-    list.append(commit(commandCounter, '"' + message + '"'))
+    listCommit.append(commit(commandCounter, '"' + message + '"'))
     print("commit success");
 
 
@@ -20,15 +20,14 @@ def executeCommnad(command):
     elif command.startswith("git commit"):
         addCommit(command)
     elif command == "git show all commit":
-        for obj in list:
+        for obj in listCommit:
             print(obj.id, obj.message, sep=' ')
-        print("show all commits!");
     else:
         print("unknown command");
     return
 
 
-list = [];
+listCommit = [];
 commandCounter = 0;
 while 1:
     command = input();
